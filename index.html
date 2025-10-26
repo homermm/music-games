@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Games</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-sky-700 text-gray-100">
+    <main class="flex items-center justify-center min-h-screen p-4">
+      <section
+        class="bg-sky-400 max-w-md w-full p-10 rounded-xl shadow-2xl flex flex-col gap-8 text-center"
+      >
+        <!-- Título y artista -->
+        <header class="border-b border-sky-300 pb-4">
+          <h1 class="text-3xl font-bold">Adivina la canción</h1>
+          <p class="text-sm mt-1">Artista: Guns N' Roses</p>
+        </header>
+
+        <!-- Letra -->
+        <article class="text-left">
+          <h2 class="font-semibold text-xl">Letra a adivinar:</h2>
+          <div class="bg-sky-900 p-6 my-5 italic rounded-lg leading-relaxed">
+            <p>Talk to me softly</p>
+            <p>There's something in your eyes</p>
+          </div>
+        </article>
+
+        <!-- Juego -->
+        <form
+          class="flex flex-col w-full gap-5 text-left"
+          action="#"
+          method="post"
+        >
+          <label for="cancion" class="font-semibold text-xl"
+            >Nombre de la canción:</label
+          >
+
+          <select
+            id="cancion"
+            name="cancion"
+            class="bg-sky-900 border border-sky-700 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-sky-600"
+          >
+            <option value="november-rain">November Rain</option>
+            <option value="dont-cry">Don't Cry</option>
+            <option value="welcome-jungle">Welcome to the Jungle</option>
+          </select>
+
+          <button
+            type="submit"
+            class="bg-sky-700 hover:bg-sky-800 transition-colors py-2 rounded-xl font-semibold"
+          >
+            Adivinar
+          </button>
+        </form>
+
+        <!-- Intentos -->
+        <footer class="mt-4 text-lg">
+          Intentos restantes:
+          <strong class="font-bold text-white">5</strong>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
