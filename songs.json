@@ -1,0 +1,63 @@
+[
+  {
+    "artist": "Guns N' Roses",
+    "songs": [
+      {
+        "name": "Don't Cry",
+        "lyrics": [
+          "Talk to me softly",
+          "There's something in your eyes",
+          "Don't hang your head in sorrow",
+          "And please don't cry",
+          "I know how you feel inside I've",
+          "I've been there before",
+          "Somethin's changin' inside you",
+          "And don't you know"
+        ]
+      },
+      {
+        "name": "November Rain",
+        "lyrics": [
+          "When I look into your eyes",
+          "I can see a love restrained",
+          "But darlin' when I hold you",
+          "Don't you know I feel the same",
+          "'Cause nothin' lasts forever",
+          "And we both know hearts can change",
+          "And it's hard to hold a candle",
+          "In the cold November rain"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Queen",
+    "songs": [
+      {
+        "name": "Bohemian Rhapsody",
+        "lyrics": [
+          "Is this the real life?",
+          "Is this just fantasy?",
+          "Caught in a landslide",
+          "No escape from reality",
+          "Open your eyes",
+          "Look up to the skies and see",
+          "I'm just a poor boy, I need no sympathy",
+          "Because I'm easy come, easy go"
+        ]
+      },
+      {
+        "name": "Don't Stop Me Now",
+        "lyrics": [
+          "Tonight I'm gonna have myself a real good time",
+          "I feel alive and the world it's turning inside out",
+          "Yeah!",
+          "I'm floating around in ecstasy",
+          "So don't stop me now",
+          "Don't stop me now",
+          "'Cause I'm having a good time, having a good time"
+        ]
+      }
+    ]
+  }
+]

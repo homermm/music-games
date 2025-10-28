@@ -17,15 +17,14 @@
         <!-- Título y artista -->
         <header class="border-b border-sky-300 pb-4">
           <h1 class="text-3xl font-bold">Adivina la canción</h1>
-          <p class="text-sm mt-1">Artista: Guns N' Roses</p>
+          <p id="artist-name" class="text-sm mt-1">Cargando artista...</p>
         </header>
 
         <!-- Letra -->
         <article class="text-left">
           <h2 class="font-semibold text-xl">Letra a adivinar:</h2>
-          <div class="bg-sky-900 p-6 my-5 italic rounded-lg leading-relaxed">
-            <p>Talk to me softly</p>
-            <p>There's something in your eyes</p>
+          <div id="lyric-snippet" class="bg-sky-900 p-6 my-5 italic rounded-lg leading-relaxed whitespace-pre-wrap">
+            <p>Cargando letra...</p>
           </div>
         </article>
 
@@ -40,13 +39,11 @@
           >
 
           <select
-            id="cancion"
+            id="options-list"
             name="cancion"
             class="bg-sky-900 border border-sky-700 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-sky-600"
           >
-            <option value="november-rain">November Rain</option>
-            <option value="dont-cry">Don't Cry</option>
-            <option value="welcome-jungle">Welcome to the Jungle</option>
+            <option value="">Selecciona tu respuesta...</option>
           </select>
 
           <button
@@ -62,6 +59,8 @@
           Intentos restantes:
           <strong class="font-bold text-white">5</strong>
         </footer>
+
+        <script src="script.js"></script>
       </section>
     </main>
   </body>
